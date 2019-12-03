@@ -1,3 +1,4 @@
+import java.io.IOException;
 
 public class Start {
 
@@ -6,7 +7,7 @@ public class Start {
 	 */
 	
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		// String fibo = Fibonacci.fibonacci(20);
 		//String resultat = Exercice.conditionIf(20);
@@ -18,6 +19,8 @@ public class Start {
 //		long resultatStringBuilder = TutoKoor.varString();		
 //		System.out.println("Temps variable string : " +resultatStringBuilder);
 //	
+		
+		EnumType.name();
 		
 		
 	}
